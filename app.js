@@ -32,12 +32,58 @@
 // }
 
 
-for (i = 5; i<=40; i++) {
-    console.log('growing', i)
+// for (i = 5; i<=40; i++) {
+//     console.log('growing', i)
+// }
+
+// let fruits = ["apple", "banana", "cherry", "date"];
+
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(fruits [i]);
+// }
+
+
+// var fruits = ["apple", "banana", "cherry", "date"];
+
+// for (var fruit of fruits) {
+//   console.log(fruit);
+// }
+
+
+let age = 0;
+
+while (true) {
+    if(age < 20){
+        age++;
+        continue;
+    }
+    if (age === 50) { 
+    break;
 }
 
-let fruits = ["apple", "banana", "cherry", "date"];
+    console.log('young', age);
 
-for (let i = 0; i < fruits.length; i++) {
-  console.log(fruits [i]);
+    age++
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
