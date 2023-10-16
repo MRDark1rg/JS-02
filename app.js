@@ -69,22 +69,36 @@
 
 
 
-let age = 0;
+// let age = 0;
 
-for (let i = 1; i < 10; i++) {
+// for (let i = 1; i < 10; i++) {
 
-if( i !== 0 && i % 2 === 0) {
-    // console.log('i is even', i );
+// if( i !== 0 && i % 2 === 0) {
+//     // console.log('i is even', i );
+// }
+// console.log(65 % 30);
+// }
+
+// ----------------------- for in & for off ----------------------
+
+// const arr = [1,2,3,5,67,65,432];
+// // for(let i = 0; i < arr.length; i++) {
+// //     console.log(arr[i]);
+// // }
+
+// for (let w in arr){
+//     console.log(arr [w]);
+// }
+
+const ex = [0,10,9,8,7,6,543,21];
+
+// for (let w in ex ){
+//     console.log(ex [w]);
+// }
+
+for (let w of ex ){
+    console.log(w);
 }
-console.log(65 % 30);
-}
-
-
-
-
-
-
-
 
 
 
