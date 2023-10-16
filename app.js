@@ -1,0 +1,43 @@
+// let x = 4;
+// let c = "4";
+
+// console.log(x !== c);
+// console.log(x != c);
+// // console.log(x == c);
+
+// const age = 18;
+// const covidpass = true;
+
+// if(age >=18 && covidpass ) {
+    
+
+// console.log('welcome');
+// }
+
+// else {
+//     console.log('reject');
+// }
+
+// const age = 16;
+// const covidpass = true;
+
+// if(age >=18 && covidpass ) {
+    
+
+// console.log('welcome');
+// }
+
+// else {
+//     console.log('reject');
+// }
+
+
+for (i = 5; i<=40; i++) {
+    console.log('growing', i)
+}
+
+let fruits = ["apple", "banana", "cherry", "date"];
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits [i]);
+}
