@@ -86,45 +86,51 @@
 // //     console.log(arr[i]);
 // // }
 
-// for (let w in arr){
-//     console.log(arr [w]);
-// }
-
-// const ex = [0,10,9,8,7,6,543,21];
-
-// // for (let w in ex ){
-// //     console.log(ex [w]);
+// // for (let w in arr){
+// //     console.log(arr [w]);
 // // }
 
-// for (let w of ex ){
-//     console.log(w);
-// }
+// // const ex = [0,10,9,8,7,6,543,21];
+
+// // // for (let w in ex ){
+// // //     console.log(ex [w]);
+// // // }
+
+// // for (let w of ex ){
+// //     console.log(w);
+// // }
 
 
-// Define an array of fruits
-// Define an object with properties
+// // Define an array of fruits
+// // Define an object with properties
+// // var person = {
+// //     name: "John",
+// //     age: 30,
+// //     city: "New York"
+// //   };
+  
+//   // Iterate over the properties of the object using for...in
+//  // Define an object with properties
 // var person = {
 //     name: "John",
 //     age: 30,
 //     city: "New York"
 //   };
   
-  // Iterate over the properties of the object using for...in
- // Define an object with properties
-var person = {
-    name: "John",
-    age: 30,
-    city: "New York"
-  };
+//   // Iterate over the properties of the object using for...in
+//   for (var key in person) {
+//     console.log(key + ": " + person[key]);
+//   }
   
-  // Iterate over the properties of the object using for...in
-  for (var key in person) {
-    console.log(key + ": " + person[key]);
+  function myfunc(name = 'world') {
+    console.log('Hello', name);
+    return name + 'yvavili';
   }
-  
-  
 
-
+myfunc('rati');
+myfunc('xatia');
+myfunc('monika');
+myfunc();
 
 
 
