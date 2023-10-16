@@ -50,25 +50,34 @@
 // }
 
 
+// let age = 0;
+
+// while (true) {
+//     if(age < 20){
+//         age++;
+//         continue;
+//     }
+//     if (age === 50) { 
+//     break;
+// }
+
+//     console.log('young', age);
+
+//     age++
+// }
+
+
+
+
 let age = 0;
 
-while (true) {
-    if(age < 20){
-        age++;
-        continue;
-    }
-    if (age === 50) { 
-    break;
+for (let i = 1; i < 10; i++) {
+
+if( i !== 0 && i % 2 === 0) {
+    // console.log('i is even', i );
 }
-
-    console.log('young', age);
-
-    age++
+console.log(65 % 30);
 }
-
-
-
-
 
 
 
